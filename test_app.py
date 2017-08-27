@@ -12,4 +12,4 @@ def send():
         return render_template('age.html',age=age)
     return render_template('index.html')
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)

@@ -4,8 +4,7 @@
 
 <html lang="en">
 <head>
-  <link rel = "icon" href = "favicon.png">
-
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>CollegeFinder</title>
 
@@ -48,7 +47,7 @@
     <form method = "POST" action = "/send">
         <input type = "text" name="age">
       <input class = "btn btn-primary" type ="submit" value="submit">
-    </form>  
+    </form>
     <br><br>
   </div>
 
