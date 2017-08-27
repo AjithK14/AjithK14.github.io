@@ -5,7 +5,6 @@ app = Flask(__name__)
 @app.route('/')
 def student():
     return render_template('index.html')
-
 @app.route('/send', methods = ['GET','POST'])
 def send():
     if request.method == 'POST':
